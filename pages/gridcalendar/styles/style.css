@@ -1,0 +1,150 @@
+html{
+	width: 100%
+}
+
+body {
+	font-family: 'Times New Roman';
+	width: 100%;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	
+}
+
+div.content{
+	background-color: #0099B2;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+h2.main{
+	background-color: #FF7C11;
+	text-align: center;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+
+
+
+
+/* declare a 7 column grid on the table */
+.calendar {
+	width: 72.9%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  
+  
+	margin: 0 auto;
+	background-color: white;
+	
+}
+
+.day {
+display: grid;
+
+  
+
+}
+
+.caption {
+  width: 72.9%;
+  text-align: center;
+  grid-column: 1 / -1;
+  font-size: 130%;
+  font-weight: bold;
+  padding: 10px 0;
+  margin: 0 auto 0 auto;
+	background-color: #B25000;
+}
+
+.a {
+	color: #8e352e;
+	text-decoration: none;
+}
+
+.day{
+	padding: 5px;
+	box-sizing:border-box;
+	border: 1px solid #ccc;
+}
+
+.weekdays {
+  background: #B25000;  
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 72.9%;
+  margin: 0 auto 0 auto;
+  font-weight: bold;
+	box-sizing:border-box;
+}
+
+
+.weekdays{
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 20px;
+	border: none !important;
+	padding: 10px 6px;
+	color: #fff;
+	font-size: 13px;
+}
+
+.day {
+	min-height: 180px;
+  
+  
+}
+
+.days li:hover {
+  
+  background: #d3d3d3;
+}
+
+.date {
+	grid-row-start: 1;
+  text-align: right;
+  
+	margin-bottom: 5px;
+	padding: 4px;
+	
+	color: #030302;
+	width: 20px;
+
+  
+  
+}
+
+.event {
+  flex: 0 0 auto;
+	font-size: 13px;
+	border-radius: 4px;
+	padding: 5px;
+	margin-bottom: 5px;
+	line-height: 14px;
+	background: #e4f2f2;
+	border: 1px solid #b5dbdc;
+	color: #009aaf;
+	text-decoration: none;
+}
+
+.event-desc {
+	color: #666;
+	margin: 3px 0 7px 0;
+	text-decoration: none;	
+}
+
+.other-month {
+	background: #f5f5f5;
+  color: #666;
+  display: grid;
+  padding: 5px;
+	box-sizing:border-box;
+	border: 1px solid #ccc;
+}
+
+
+/* ============================
+				Mobile Responsiveness
+   ============================*/
+
+

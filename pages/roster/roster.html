@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JavaScript Inheritance</title>
+    <style type="text/css">
+    
+    </style>
+  </head>
+<body>
+
+  
+  <div class="navigation">
+      <ul class ="nav">
+          <li class="nav"><a href="../../index.html">Home</a></li>
+          <li class="nav"><a href="news.asp">Programs of Study</a></li>
+          <li class="nav"><a href="contact.asp"> Parental Information</a></li>
+          <li class="nav"><a href="about.asp">Contact Us</a></li>
+        </ul> 
+  </div>  
+
+  <div class="wrapper">
+    
+
+  <div class="box header"><h1>Linn Benton Community College Summer Activities</h1>
+  </div>
+    
+    <div class="box sidebar">
+      <h4>Registered Participants:</h4>
+    
+    <ol id="people">
+    </ol>
+    </div>
+    
+    
+    
+    
+    <div class="box content">
+      <div>
+        <h2 class = "subheader">Activities Summer 2020</h2>
+        <img src="images/teacher.jpg" alt="Activities Teacher" class = "image1" style=' object-fit: contain'>Our activity staff is top notch. Before you know it, you'll
+        be having a great time! The activities this Summer 2020 include:<br><br> <Strong>Introduction to Computer Science</Strong> which will teach you how to
+        begin your journey as a programmer by introducing you to classic programs such as "Hello World" and "Guess My Number".<br><br> <strong>Beginner's Physics</strong>
+         which will cover Kinematics (the study of motion without regard to its causes), and Dynamics (study of motion and forces that affect it).<br><br>
+        Finally, we have <strong>Introductory Chemistry</strong> which will work with students both in and out of the lab on subjects such as Matter, Bonding, Energy, and Reactions.<br><br>
+        For our younger students, we have our award-winning <strong>Little Science</strong> which is a class which works with kids 7-12 and teaches them about the different states of Matter, The Earth, Light, Cells, and Space.
+
+      </div>
+      
+      <div class = "left">
+        <h2>Register a New Student:</h2>
+        <p>Keep in mind, this registration does not mean you are automatically in your individual class. You will need to attend our first meeting which will lay out all of the rules students must abide by while on the premises.</p>
+      
+      
+        <div id = "formLocation"></div>
+      
+        <select onchange="createForm(this.value);">
+          
+          <option value='student'>Student</option>
+          <option value='teacher'>Teacher</option>
+          <option value='child'>Child</option>
+        </select>
+        
+        
+      
+        </div>
+
+        
+    
+        
+        
+        
+      </div>
+    
+    </div>
+    </div>
+
+  <script type="text/javascript" src="scripts/game.js"></script>
+
+</body>
+
+</html>

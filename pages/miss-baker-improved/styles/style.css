@@ -1,0 +1,68 @@
+html{
+
+background-color: #2AB200;
+
+
+}
+
+body{
+    width: 100%;
+    margin: 0 0 0 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  
+    text-align: center;
+    background-color: #B2087F;
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 0;
+  
+  }
+
+h2 {
+    text-align: center;
+    background-color: #B2087F;
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 0;
+}
+
+h3{
+    text-align: center;
+}
+
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+figure figcaption {
+    text-align: center;
+}
+
+div {
+    
+    font-size: 12pt;
+    margin: 0 2px 0 2px;
+    padding: 0 0 0 0;
+}
+
+div.content{
+    width: 72.9%;
+    margin: 0 auto;
+    background-color: #FF98EE;
+    padding: 0 0 0 0;
+    border: 3px solid black;
+}
+
+p.nospace{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+div.main{
+    margin: 2px 2px 2px 2px;
+}
+
+

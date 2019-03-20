@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MapQuest/Video.js</title>
+    
+    <style>
+
+      #map {
+
+        width: 500px;
+
+        height: 500px;
+
+      }
+
+    </style>
+
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+    <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+    
+
+  
+  </head>
+<body>
+
+<div class="navigation">
+    <ul class ="nav">
+        <li class="nav"><a href="../../index.html">My Homepage</a></li>
+        <li class="nav"><a href="https://elite-dangerous.fandom.com/wiki/Stellar_Forge">Stellar Forge Wiki</a></li>
+        <li class="nav"><a href="https://www.polygon.com/2014/12/4/7333709/elite-dangerous-milky-way-stellar-forge-human-cruelty">Polygon Article on SF</a></li>
+        <li class="nav"><a href="https://www.polygon.com/2017/2/25/14737940/elite-dangerous-trappist-1-system-predicted">Stellar Forge Predicts Trappist-1</a></li>
+
+    </ul> 
+</div>  
+
+<div class="wrapper">
+    <div class="box header"><h1>Elite Dangerous: The Stellar Forge</h1></div>
+    
+    <div class="box sidebar">
+     <div class = "scontent">
+    <p>Helpful Resources:</p>
+    <ul class="w3-ul" style="list-style-type: none;">
+        <li class = "lnk"><a href="https://www.mapquest.com/">MapQuest</a></li>
+        <li class = "lnk"><a href="https://developer.mapquest.com/">Developer MapQuest Page</a></li>
+        
+      </ul>
+      </div>
+    </div>
+    
+    
+    <div class="box content"><h2>New Africa's Moon: Mitterand Hollow's Orbit</h2>
+      <div class = "mcontent">
+      <p>Below you can see an example of the capabilities of the <strong>Stellar Forge</strong>, which is the part of the game engine that generates stellar bodies and their locations/orbits. 
+        New Africa's Moon, Mitterand Hollow, literally orbits the planet in just over a minute. This makes for some amazing sights on the ground! Below, you can find a video 
+        that I've directly uploaded using video.js:
+      </p>
+        
+      <div class = "vid">  
+        <video id='my-video' class='video-js' controls preload='auto' width='400' height='300'
+          poster='images/horizons.jpg' data-setup='{}'>
+            <source src='videos/new_africa.mp4' type='video/mp4'>
+            
+            <p class='vjs-no-js'>To view this video please enable JavaScript, and consider upgrading to a web browser that
+              <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+              </p>
+        </video>
+
+        <script src='https://vjs.zencdn.net/7.4.1/video.js'></script>
+      </div>
+      
+      <p>I created and uploaded this video originally to youtube from the below location a couple of years back:</p>
+      <div id="map"></div>
+      
+      </div>
+    </div>
+
+
+    
+</div>
+
+</body>
+</html>

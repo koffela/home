@@ -1,0 +1,190 @@
+
+
+html{
+    background-color: #1e2022;
+}
+
+div.navbar{
+   
+}
+
+div.authordate{
+    float: right;
+    font-size: 11px;
+    color: #888;
+    margin-left: 10px;
+}
+
+h3.header.authordate{
+    color: #aaa;
+}
+
+div.maincontent{
+    width: 100%;
+    
+    padding: 0px 20px 0px 20px;
+}
+
+div.contentwidth33{
+    
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 32.3%;
+    margin: 0 auto;
+    
+    
+    display: inline-block;
+    
+    
+    
+    vertical-align: top;
+    
+    
+}
+
+div.contentwidth33a{
+    
+   
+    width: 32.1%;
+
+    margin: 0 auto;
+    
+    
+    display: inline-block;
+    
+    
+    
+    vertical-align: top;
+    
+    
+}
+
+div.mainblock{
+    
+    
+    
+    border-spacing: 0px;
+    overflow: hidden;
+    border-spacing: 0px;
+    background-color: #303031;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 0px 15px 0px;
+    line-height: 16px;
+    
+    
+}
+
+
+
+div.articlecontent{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    line-height: 18px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+body{
+    font-family: Helvetica, Helvetica,Verdana,Arial,sans-serif;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    margin: 0 0;
+    color: #dadbdc;
+    
+}
+
+h1 {
+  
+    text-align: center;
+  
+  }
+
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ba6000;
+  }
+  
+  li.link a {
+    color: #ba6000;
+    font-family: Helvetica, Helvetica,Verdana,Arial,sans-serif;
+  }
+  
+  li.nav a {
+    float: left;
+    display: block;
+    color: white;
+    font-family: Helvetica, Helvetica,Verdana,Arial,sans-serif;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    text-transform: uppercase;
+    font-size: 13px;
+
+  }
+  
+  /* Change the link color to #111 (orange) on hover */
+  li.nav a:hover {
+    background-color: #fc8403;
+  } 
+
+  h2.header{
+      padding: 20px 5px 5px 10px;
+      color: #f3b358;
+      text-align: left;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 6px rgba(0,0,0,1);
+      
+      font-size: 140%;
+      
+
+  }
+
+  h3.header{
+      padding: 7px 10px 7px 10px;
+      color: #f3b358;
+      text-transform: uppercase;
+      font-size: 105%;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+      background-color: #4f4842;
+      
+  }
+
+  div{
+      outline: 0;
+  }
+
+   h3.header, div.mainblock, h2.header {
+    margin: 0;
+}
+
+figure figcaption {
+    
+}
+
+ul.links{
+
+}
+
+iframe.video{
+    display:block;
+}
+
+div.mainitem{
+    width: 100%;
+    padding-top: 10px;
+    margin: 0 auto;
+    
+    
+    display: inline-block;
+    
+    
+    
+    vertical-align: top;
+}
